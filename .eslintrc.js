@@ -21,7 +21,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     semi: 1,
-    quotes: [1, 'single'],
+    quotes: [2, 'single'],
     'react/prop-types': 1,
     'react/jsx-max-props-per-line': 1,
     'linebreak-style': 0,
