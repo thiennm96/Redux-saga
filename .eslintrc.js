@@ -1,0 +1,43 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'airbnb',
+    'react-app',
+  ],
+  // "parser": "@typescript-eslint/parser",
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
+    sourceType: 'module',
+  },
+  plugins: ['react'],
+  rules: {
+    semi: 1,
+    quotes: [1, 'single'],
+    'react/prop-types': 1,
+    'react/jsx-max-props-per-line': 1,
+    'linebreak-style': 0,
+    'import/no-extraneous-dependencies': 0,
+    'quote-props': 0,
+    'indent': 0,
+    'react/jsx-filename-extension': 0,
+    'react/jsx-one-expression-per-line': 0,
+    'react/forbid-prop-types': 0,
+    'react/require-default-props': 0,
+    'react/state-in-constructor': 0,
+    'react/prefer-stateless-function': 0,
+    'react/react-in-jsx-scope': 0,
+    'no-unused-vars': 1,
+    'import/prefer-default-export': 0,
+    'import/extensions': 0,
+    'import/order': 1,
+  },
+};
