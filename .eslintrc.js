@@ -39,5 +39,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'import/extensions': 0,
     'import/order': 1,
+    'import/no-cycle': 0,
+    'react/jsx-props-no-spreading': 0,
   },
 };
